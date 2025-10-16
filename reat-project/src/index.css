@@ -19,7 +19,37 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
+.welcome-message {
+  color: #cfe6d8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #2ecc71;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 3px solid #e74c3c;
+  margin: 20px 0;
+}
+
 .card .para{
   color:hsl(208, 47%, 49%);
   margin: 5px;
+}
+.button{
+  background-color: hsl(203, 64%, 72%);
+  color:hsl(0, 51%, 21%);
+  border-radius: 10%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 1px;
 }
